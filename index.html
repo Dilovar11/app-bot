@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кухня Заказ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в наш ресторан!</h1>
+        <p>Выберите категорию блюд для заказа:</p>
+    </header>
+
+    <main>
+        <section id="categories">
+            <div class="category">
+                <img src="images/salads.jpg" alt="Салаты">
+                <h2>Салаты</h2>
+            </div>
+            <div class="category">
+                <img src="images/main_courses.jpg" alt="Основные блюда">
+                <h2>Основные блюда</h2>
+            </div>
+            <div class="category">
+                <img src="images/desserts.jpg" alt="Десерты">
+                <h2>Десерты</h2>
+            </div>
+            <div class="category">
+                <img src="images/drinks.jpg" alt="Напитки">
+                <h2>Напитки</h2>
+            </div>
+        </section>
+
+        <section id="menu" style="display: none;">
+            <h2>Меню</h2>
+            <div class="menu-item">
+                <h3>Салат Цезарь</h3>
+                <p>Цена: 350 руб.</p>
+                <button>Добавить в корзину</button>
+            </div>
+            <!-- Другие элементы меню... -->
+        </section>
+
+        <section id="cart" style="display: none;">
+            <h2>Ваша корзина</h2>
+            <div class="cart-item">
+                <h3>Салат Цезарь</h3>
+                <p>Количество: 1</p>
+                <p>Цена: 350 руб.</p>
+                <button>Удалить</button>
+            </div>
+            <!-- Другие элементы корзины... -->
+            <button>Оформить заказ</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Ресторан "Вкусная еда". Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
